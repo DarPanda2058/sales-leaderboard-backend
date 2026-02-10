@@ -1,4 +1,4 @@
-import { SalesRecord } from "middleware/validate";
+import { SalesRecord } from "../middleware/validate";
 export interface LeaderboardEntry {
     rank?: number;
     name: string;
