@@ -1,4 +1,4 @@
-import { disconnectDB } from "config/db";
+import { disconnectDB } from "../config/db";
 
 const handleUnhandledRejection = (server: any) => {
     process.on("unhandledRejection",(err) => {
